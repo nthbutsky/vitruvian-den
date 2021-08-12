@@ -48,9 +48,9 @@ body::-webkit-scrollbar {
 
 .bg-text {
   position: absolute;
-  top: -1.25rem;
-  left: -1.25rem;
-  width: 105%;
+  top: -50px;
+  left: -100px;
+  width: 120%;
   font-family: "Astloch", cursive;
   text-align: justify;
   color: rgba(26, 25, 20, 0.7);
