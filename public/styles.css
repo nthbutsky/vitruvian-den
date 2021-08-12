@@ -50,7 +50,7 @@ body::-webkit-scrollbar {
   position: absolute;
   top: -50px;
   left: -100px;
-  width: 120%;
+  width: 150%;
   font-family: "Astloch", cursive;
   text-align: justify;
   color: rgba(26, 25, 20, 0.7);
@@ -59,6 +59,12 @@ body::-webkit-scrollbar {
 .layer {
   position: absolute;
   text-align: center;
+}
+
+@media (max-height: 650px) {
+  .layer {
+    height: 100%;
+  }
 }
 
 .circle img {
@@ -162,6 +168,18 @@ body::-webkit-scrollbar {
   }
 }
 
+@media (max-width: 280px) {
+  .modal-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-height: 650px) {
+  .modal-text {
+    font-size: 1.5rem;
+  }
+}
+
 .link {
   color: #1a1914;
   pointer-events: all;
@@ -241,6 +259,19 @@ body::-webkit-scrollbar {
   }
 }
 
+@media (max-width: 280px) {
+  .icon {
+    height: 32px;
+    margin: 5px 0 0 0;
+  }
+}
+
+@media (max-height: 650px) {
+  .icon {
+    height: 36px;
+  }
+}
+
 .material-icons.md-36 {
   font-size: 36px;
   vertical-align: middle;
@@ -253,6 +284,18 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 428px) {
+  .material-icons.md-36 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 280px) {
+  .material-icons.md-36 {
+    font-size: 22px;
+  }
+}
+
+@media (max-height: 650px) {
   .material-icons.md-36 {
     font-size: 26px;
   }

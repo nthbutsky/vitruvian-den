@@ -24,7 +24,7 @@
   position: absolute;
   top: -50px;
   left: -100px;
-  width: 120%;
+  width: 150%;
   font-family: "Astloch", cursive;
   text-align: justify;
   color: $dark-transparent;
@@ -33,6 +33,9 @@
 .layer {
   position: absolute;
   text-align: center;
+  @media (max-height: 650px) {
+    height: 100%;
+  }
 }
 
 .circle img {
@@ -129,6 +132,12 @@
   @media (max-width: 428px) {
     font-size: 1.3rem;
   }
+  @media (max-width: 280px) {
+    font-size: 1.2rem;
+  }
+  @media (max-height: 650px) {
+    font-size: 1.5rem;
+  }
 }
 
 .link {
@@ -200,6 +209,13 @@
   @media (max-width: 428px) {
     height: 36px;
   }
+  @media (max-width: 280px) {
+    height: 32px;
+    margin: 5px 0 0 0;
+  }
+  @media (max-height: 650px) {
+    height: 36px;
+  }
 }
 
 .material-icons.md-36 {
@@ -209,6 +225,12 @@
     font-size: 30px;
   }
   @media (max-width: 428px) {
+    font-size: 26px;
+  }
+  @media (max-width: 280px) {
+    font-size: 22px;
+  }
+  @media (max-height: 650px) {
     font-size: 26px;
   }
 }
