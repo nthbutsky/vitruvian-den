@@ -1,0 +1,103 @@
+.photography-top-text__container {
+  margin: 5px;
+  background: $light-transparent;
+  border-radius: 10px;
+  border-bottom: 5px solid $dark-light;
+}
+
+.photography-top-text__container h1 {
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-size: 2rem;
+  color: $dark;
+  font-weight: normal;
+  animation: photography-top-text-move 2s linear infinite alternate;
+  @keyframes photography-top-text-move {
+    0% {
+      transform: scaleX(0.98);
+    }
+    100% {
+      transform: scaleY(0.98);
+    }
+  }
+  @media screen and (max-width: 375px) {
+    font-size: 1.4rem;
+  }
+  @media screen and (max-width: 414px) {
+    font-size: 1.5rem;
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 33%;
+  max-width: 33%;
+  padding: 2px;
+}
+
+.column img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.up-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: $light-transparent;
+  color: $dark;
+  font-family: "Caveat", cursive;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  border-bottom: 5px solid $dark-light;
+  &:hover {
+    background-color: $dark-light;
+    color: white;
+    border-bottom: 5px solid $light-transparent;
+  }
+  @media screen and (max-width: 375px) {
+    font-size: 1.4rem;
+  }
+  @media screen and (max-width: 414px) {
+    font-size: 1.5rem;
+  }
+}
+
+.photography-link {
+  text-decoration: none;
+  position: fixed;
+  bottom: 20px;
+  left: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: $light-transparent;
+  color: $dark;
+  font-family: "Caveat", cursive;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  border-bottom: 5px solid $dark-light;
+  &:hover {
+    background-color: $dark-light;
+    color: white;
+    border-bottom: 5px solid $light-transparent;
+  }
+  @media screen and (max-width: 375px) {
+    font-size: 1.4rem;
+  }
+  @media screen and (max-width: 414px) {
+    font-size: 1.5rem;
+  }
+}
