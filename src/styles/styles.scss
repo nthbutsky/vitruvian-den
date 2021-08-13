@@ -20,6 +20,7 @@ html {
 }
 
 body {
+  font-family: Garamond;
   height: 100%;
   width: 100%;
   background-image: url("./img/background-1080.png");
@@ -28,6 +29,10 @@ body {
   &::-webkit-scrollbar {
     display: none;
   }
+}
+
+button {
+  font-family: Garamond;
 }
 
 @import "_index.scss", "_photography.scss";
