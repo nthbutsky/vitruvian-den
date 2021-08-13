@@ -52,6 +52,11 @@
   }
 }
 
+.circle {
+  position: absolute;
+  z-index: -1;
+}
+
 .square img {
   max-width: 90%;
   max-height: 90%;
@@ -64,6 +69,11 @@
       transform: scaleY(0.98);
     }
   }
+}
+
+.square {
+  position: absolute;
+  z-index: -1;
 }
 
 .den img {
