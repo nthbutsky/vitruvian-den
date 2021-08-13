@@ -33,7 +33,7 @@
 .layer {
   position: absolute;
   text-align: center;
-  @media (max-height: 650px) {
+  @media (max-height: 450px) {
     height: 100%;
   }
 }
@@ -132,11 +132,8 @@
   @media (max-width: 428px) {
     font-size: 1.3rem;
   }
-  @media (max-width: 280px) {
+  @media (max-width: 371px) {
     font-size: 1.2rem;
-  }
-  @media (max-height: 650px) {
-    font-size: 1.5rem;
   }
 }
 
@@ -209,12 +206,9 @@
   @media (max-width: 428px) {
     height: 36px;
   }
-  @media (max-width: 280px) {
+  @media (max-width: 371px) {
     height: 32px;
     margin: 5px 0 0 0;
-  }
-  @media (max-height: 650px) {
-    height: 36px;
   }
 }
 
@@ -227,10 +221,7 @@
   @media (max-width: 428px) {
     font-size: 26px;
   }
-  @media (max-width: 280px) {
+  @media (max-width: 371px) {
     font-size: 22px;
-  }
-  @media (max-height: 650px) {
-    font-size: 26px;
   }
 }

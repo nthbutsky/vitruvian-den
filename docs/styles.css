@@ -66,7 +66,7 @@ button {
   text-align: center;
 }
 
-@media (max-height: 650px) {
+@media (max-height: 450px) {
   .layer {
     height: 100%;
   }
@@ -173,15 +173,9 @@ button {
   }
 }
 
-@media (max-width: 280px) {
+@media (max-width: 371px) {
   .modal-text {
     font-size: 1.2rem;
-  }
-}
-
-@media (max-height: 650px) {
-  .modal-text {
-    font-size: 1.5rem;
   }
 }
 
@@ -264,16 +258,10 @@ button {
   }
 }
 
-@media (max-width: 280px) {
+@media (max-width: 371px) {
   .icon {
     height: 32px;
     margin: 5px 0 0 0;
-  }
-}
-
-@media (max-height: 650px) {
-  .icon {
-    height: 36px;
   }
 }
 
@@ -294,15 +282,9 @@ button {
   }
 }
 
-@media (max-width: 280px) {
+@media (max-width: 371px) {
   .material-icons.md-36 {
     font-size: 22px;
-  }
-}
-
-@media (max-height: 650px) {
-  .material-icons.md-36 {
-    font-size: 26px;
   }
 }
 
