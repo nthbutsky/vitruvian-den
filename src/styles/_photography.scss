@@ -11,12 +11,25 @@
   font-size: 2rem;
   color: $dark;
   font-weight: normal;
+  -webkit-animation: photography-top-text-move 2s linear infinite alternate;
   animation: photography-top-text-move 2s linear infinite alternate;
-  @keyframes photography-top-text-move {
+  @-webkit-keyframes photography-top-text-move {
     0% {
+      -webkit-transform: scaleX(0.98);
       transform: scaleX(0.98);
     }
     100% {
+      -webkit-transform: scaleY(0.98);
+      transform: scaleY(0.98);
+    }
+  }
+  @keyframes photography-top-text-move {
+    0% {
+      -webkit-transform: scaleX(0.98);
+      transform: scaleX(0.98);
+    }
+    100% {
+      -webkit-transform: scaleY(0.98);
       transform: scaleY(0.98);
     }
   }
@@ -29,11 +42,16 @@
 }
 
 .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
 .column {
+  -webkit-box-flex: 33%;
+  -ms-flex: 33%;
   flex: 33%;
   max-width: 33%;
   padding: 2px;
