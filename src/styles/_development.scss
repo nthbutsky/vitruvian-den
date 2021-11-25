@@ -1,13 +1,13 @@
-.photography-top-text__container {
+.development-top-text__container {
   margin: 5px;
   background: $light-transparent;
   border-radius: 10px;
   border-bottom: 5px solid $dark-light;
 }
 
-.photography-top-text__container h1 {
-  text-align: center;
+.development-top-text__container h1 {
   font-family: "Kalam", cursive;
+  text-align: center;
   font-size: 1rem;
   color: $dark;
   font-weight: normal;
@@ -19,6 +19,7 @@
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .column {
@@ -26,12 +27,42 @@
   -ms-flex: 33%;
   flex: 33%;
   max-width: 33%;
-  padding: 2px;
+
+  @media screen and (max-width: 375px) {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 
 .column img {
   width: 100%;
   border-radius: 10px;
+  margin-bottom: 0;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  background-color: $light-transparent;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.project-link {
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: black;
+}
+
+.overlay-text p {
+  font-family: "Kalam", cursive;
+  text-align: center;
+  font-size: 1rem;
+  color: $dark;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .up-btn {
@@ -55,9 +86,15 @@
     color: white;
     border-bottom: 5px solid $light-transparent;
   }
+  @media screen and (max-width: 375px) {
+    font-size: 1.4rem;
+  }
+  @media screen and (max-width: 414px) {
+    font-size: 1.5rem;
+  }
 }
 
-.photography-link {
+.development-link {
   text-decoration: none;
   position: fixed;
   bottom: 20px;

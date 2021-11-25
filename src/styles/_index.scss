@@ -209,32 +209,11 @@
   top: 0;
   margin: 0 auto;
   text-align: center;
-  font-family: "Caveat", cursive;
-  font-size: 2rem;
+  font-family: "Kalam", cursive;
+  font-size: 1rem;
   font-weight: normal;
   color: $dark;
-  -webkit-animation: bubble-text-2-move 2s linear infinite alternate;
-  animation: bubble-text-2-move 2s linear infinite alternate;
-  @-webkit-keyframes bubble-text-2-move {
-    0% {
-      -webkit-transform: scaleX(0.98);
-      transform: scaleX(0.98);
-    }
-    100% {
-      -webkit-transform: scaleY(0.98);
-      transform: scaleY(0.98);
-    }
-  }
-  @keyframes bubble-text-2-move {
-    0% {
-      -webkit-transform: scaleX(0.98);
-      transform: scaleX(0.98);
-    }
-    100% {
-      -webkit-transform: scaleY(0.98);
-      transform: scaleY(0.98);
-    }
-  }
+
   @media (max-width: 520px) {
     font-size: 1.5rem;
   }
@@ -254,24 +233,24 @@
   padding: 0 0.625rem 0 0.3125rem;
   font-weight: bold;
   text-decoration: none;
-  -webkit-animation: home-link-change 2s linear infinite alternate;
-  animation: home-link-change 2s linear infinite alternate;
-  @-webkit-keyframes home-link-change {
-    0% {
-      color: $dark;
-    }
-    100% {
-      color: $dark-light-transparent;
-    }
-  }
-  @keyframes home-link-change {
-    0% {
-      color: $dark;
-    }
-    100% {
-      color: $dark-light-transparent;
-    }
-  }
+  // -webkit-animation: home-link-change 2s linear infinite alternate;
+  // animation: home-link-change 2s linear infinite alternate;
+  // @-webkit-keyframes home-link-change {
+  //   0% {
+  //     color: $dark;
+  //   }
+  //   100% {
+  //     color: $dark-light-transparent;
+  //   }
+  // }
+  // @keyframes home-link-change {
+  //   0% {
+  //     color: $dark;
+  //   }
+  //   100% {
+  //     color: $dark-light-transparent;
+  //   }
+  // }
   &:hover {
     border-bottom: 0.3125rem solid $dark-light;
     padding: 0 0.625rem 0 0.3125rem;
@@ -312,7 +291,7 @@
 }
 
 .icon {
-  height: 50px;
+  height: 34px;
   pointer-events: all;
   padding: 5px;
   margin: 5px 5px 0 5px;
@@ -334,7 +313,7 @@
     height: 40px;
   }
   @media (max-width: 428px) {
-    height: 36px;
+    height: 34px;
   }
   @media (max-width: 371px) {
     height: 32px;
@@ -343,7 +322,7 @@
 }
 
 .material-icons.md-36 {
-  font-size: 36px;
+  font-size: 24px;
   vertical-align: middle;
   @media (max-width: 520px) {
     font-size: 30px;

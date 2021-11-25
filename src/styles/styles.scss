@@ -21,19 +21,15 @@ html {
 }
 
 body {
-  font-family: Garamond;
   height: 100%;
   width: 100%;
   background-image: url("./img/background-1080.png");
   background-repeat: repeat;
   background-size: cover;
+  cursor: pointer;
   &::-webkit-scrollbar {
     display: none;
   }
 }
 
-button {
-  font-family: Garamond;
-}
-
-@import "_index.scss", "_photography.scss";
+@import "_index.scss", "_photography.scss", "_development.scss"; ;
