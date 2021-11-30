@@ -38,15 +38,29 @@
   width: 100%;
   border-radius: 10px;
   margin-bottom: 0;
+  transition: all 0.2s ease-in-out;
 }
 
 .container {
+  font-family: "Kalam", cursive;
+  text-align: center;
+  font-size: 1rem;
+  color: $dark;
   position: relative;
   text-align: center;
   background-color: $light-transparent;
   border-radius: 10px;
   margin-bottom: 5px;
   cursor: pointer;
+  height: 360px;
+
+  & :hover .text-wrapper p {
+    filter: drop-shadow(5px 5px 5px);
+  }
+
+  & :hover .project-img {
+    filter: grayscale(0);
+  }
 }
 
 .project-link {
@@ -56,13 +70,24 @@
   color: black;
 }
 
-.overlay-text p {
-  font-family: "Kalam", cursive;
-  text-align: center;
-  font-size: 1rem;
-  color: $dark;
-  width: 90%;
+.project-img {
+  filter: grayscale(1);
+}
+
+.text-wrapper {
+  position: relative;
+  height: 70px;
+  width: 95%;
   margin: 0 auto;
+}
+
+.text-wrapper p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  transition: all 0.2s ease-in-out;
 }
 
 .up-btn {
