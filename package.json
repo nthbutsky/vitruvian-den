@@ -2,6 +2,9 @@
   "name": "vitruvian-den",
   "version": "1.0.0",
   "description": "Portfolio Website",
+  "engines": {
+    "node": "18.x"
+  },
   "main": "public/js/app.js",
   "scripts": {
     "build": "babel src -d public/js"
