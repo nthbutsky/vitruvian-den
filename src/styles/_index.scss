@@ -233,24 +233,7 @@
   padding: 0 0.625rem 0 0.3125rem;
   font-weight: bold;
   text-decoration: none;
-  // -webkit-animation: home-link-change 2s linear infinite alternate;
-  // animation: home-link-change 2s linear infinite alternate;
-  // @-webkit-keyframes home-link-change {
-  //   0% {
-  //     color: $dark;
-  //   }
-  //   100% {
-  //     color: $dark-light-transparent;
-  //   }
-  // }
-  // @keyframes home-link-change {
-  //   0% {
-  //     color: $dark;
-  //   }
-  //   100% {
-  //     color: $dark-light-transparent;
-  //   }
-  // }
+
   &:hover {
     border-bottom: 0.3125rem solid $dark-light;
     padding: 0 0.625rem 0 0.3125rem;
